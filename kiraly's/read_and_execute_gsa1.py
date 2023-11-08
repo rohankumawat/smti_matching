@@ -13,25 +13,31 @@ def read_preferences(file_path):
         for i in range(1, n_men+1):
             man_id, *prefs = lines[i].split()
             men_preferences[man_id[:-1]] = prefs
+        
+        for i in lines[int(n_men)+1:]:
+            line = i.strip().split(':')
+            line2 = line[1].strip().split()
 
-        for i in range(n_men+1, len(lines)):
-            line = lines[i].strip()
-            woman_id, prefs = line.split(':')
+            woman_id = line[0]
         
             tied_prefs = []
             ongoing_tie = False
 
-            for char in prefs:
+            for char in line2:
                 if char.isdigit() and not ongoing_tie:
                     tied_prefs.append([char])
                 elif char[0] == '(':
                     tie = []
                     ongoing_tie = True
+                    tie.append(char[1:])
                 elif char.isdigit() and ongoing_tie:
                     tie.append(char)
                 elif char[-1] == ')':
+                    tie.append(char[:-1])
                     ongoing_tie = False
                     tied_prefs.append(tie)
+        
+            women_preferences[woman_id] = tied_prefs
         
             women_preferences[woman_id] = tied_prefs
 

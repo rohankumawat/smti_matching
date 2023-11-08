@@ -36,7 +36,7 @@ def read_file(filename):
     return men_preferences, women_preferences
 
 # You can now read the file, initialize men and women, and execute the GSA1 algorithm
-filename = "examples/smi_ties0.txt"
+filename = "examples/smi_ties1.txt"
 men_prefs, women_prefs = read_file(filename)
 
 men_dict = {man_id: Man(man_id) for man_id in men_prefs}
@@ -48,6 +48,7 @@ for man_id, prefs in men_prefs.items():
 for woman_id, prefs in women_prefs.items():
     women_dict[woman_id].preferences = prefs
 
+print(men_prefs)
 print(women_prefs)
 
 matches = gsa1(men_dict, women_dict)

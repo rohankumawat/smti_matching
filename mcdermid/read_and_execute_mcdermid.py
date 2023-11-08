@@ -1,7 +1,6 @@
 import os
 import time
-from gsa2 import gsa2, Man, Woman
-from stability_checker import is_stable
+from mcdermid import * 
 
 def read_preferences(file_path):
     with open(file_path, 'r') as file:
@@ -60,38 +59,54 @@ def read_preferences(file_path):
         
             women_preferences[woman_id] = tied_prefs
 
-        return men_preferences, women_preferences
+        return n_men, n_women, men_preferences, women_preferences
+"""
+n_men, n_women, men_preferences, women_preferences = read_preferences('examples/instance_1.txt')
 
-def execute_gsa2_on_files(directory_path):
+print(n_men)
+print(men_preferences)
+print(women_preferences)
+"""
+def execute_mcdermid_on_files(directory_path):
     with open(output_file_path, 'w') as output_file:
         for filename in os.listdir(directory_path):
             file_path = os.path.join(directory_path, filename)
-            men_prefs, women_prefs = read_preferences(file_path)
+            n_men, n_women, men_prefs, women_prefs = read_preferences(file_path)
+            """
+            men = []
+            for i in range(1, n_men+1):
+                men.append(str(i))
+            """
+            men = [str(i) for i in range(1, n_men+1)]
+            women = [str(i) for i in range(1, n_women+1)]
 
-            print(f"Executing Kiraly's GSA2 on file: {filename}", file=output_file)
+            promoted_men = set() # assuming a list to keep track of promotions
+            reactivated_men = set() # assuming a list to keep track of reactivations
+            # list to keep track of current matching
+            matching = []
+            # track the stalled and exhausted man
+            stalled_men = set()
+            exhausted_men = set()
+
+            print(f"Executing McDermid's Algorithm on file: {filename}", file=output_file)
             start_time = time.time()
-            matches = gsa2(men_prefs, women_prefs)
+            # phase 1
+            matching = phase1(men, women, men_prefs, women_prefs)
+
+            # check if there are stalled men
+            if stalled_men:
+                # phase 2
+                phase2_result = phase2(men, women, men_prefs, women_prefs, matching, stalled_men)
+            
+                if not phase2_result:
+                    # phase 2 didn't yield any matches, proceed to phase 3
+                    matching = phase3(matching, phase2_result)
             execution_time = time.time() - start_time
-            print(f"Execution time: {execution_time: .20f} seconds\n", file=output_file)
-            print(f"Resulting matches: {matches}\n", file=output_file)
 
-            men_prefs, women_prefs = read_preferences(file_path)
-            blocking_pairs = check_blocking_pairs(men_prefs, women_prefs, matches)
-
-            men_count, women_count = len(men_prefs), len(women_prefs)
-            match_count = len(matches)
-
-            print(f"Men Count: {men_count}, Women Count: {women_count}.", file=output_file)
-            print(f"Matchings: {match_count}.", file=output_file)
-
-            if blocking_pairs:
-                print("Blocking pairs exist:\n", file=output_file)
-            for pair in blocking_pairs:
-                print(pair, "\n", file=output_file)
-            else:
-                print("No blocking pairs found.\n", file=output_file)
-
+            print(f"Execution time: {execution_time: .20f} seconds \n", file=output_file)
+            print(f"Resulting matches: {matching} \n", file=output_file)
+            
 if __name__ == "__main__":
     directory_path = "./instances"
-    output_file_path = "./output_gsa2.txt"
-    execute_gsa2_on_files(directory_path)
+    output_file_path = "./output_mcdermid.txt"
+    execute_mcdermid_on_files(directory_path)

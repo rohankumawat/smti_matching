@@ -1,13 +1,22 @@
 """
 GSA1: Gale-Shapley Algorithm 1
-While there exists an active man m, he proposes to his favourite woman w. If w accepts his proposal,
-they become engaged. If w rejects him, m deletes w from his list.
-When a woman gets a new proposal from man m, she always accepts this proposal, if she is a maiden. She also
-accepts this new proposal, if she prefers m to her current fiance. Otherwise she rejects m.
-If w accepted m, then she rejects her previous fiance, if there was one (breaks off her engagement), and becomes engaged to m.
-If m was engaged to a woman w and later w rejects him, then m becomes active again, and deletes w from his list.
-If the list m becomes empty for the first time, he turns into a bachelor, his original list is recovered, and he reactivates himself.
-If the list of m becomes empty for the second time, he will turn into an old bachelor and will remain inactive forever.
+While there exists an active man m, he proposes to his favourite woman w. 
+- If w accepts his proposal, they become engaged. 
+- If w rejects him, m deletes w from his list.
+When a woman gets a new proposal from man m, she always accepts this proposal if she 
+is a maiden. She also accepts this new proposal if she prefers m to her current fiance. 
+Otherwise she rejects m.
+
+If w accepted m, then she rejects her previous fiance, if there was one (breaks off 
+her engagement), and becomes engaged to m.
+If m was engaged to a woman w and later w rejects him, then m becomes active again, 
+and deletes w from his list.
+
+If the list m becomes empty for the first time, he turns into a bachelor, 
+his original list is recovered, and he reactivates himself.
+
+If the list of m becomes empty for the second time, he will turn into an 
+old bachelor and will remain inactive forever.
 """
 
 
@@ -39,7 +48,7 @@ class Woman:
         if self.fiance is None:
             return True
         
-        current_man = men_dict[self.fiance]
+        current_man = men_dict[self.fiance] # check if it's not NONE
 
         # preference comparison logic / ties
         if man.status == 'bachelor' and current_man.status == 'lad':
@@ -61,6 +70,7 @@ def gsa1(men_dict, women_dict):
     while active_men:
         man = active_men.pop(0)
         woman_id = man.propose() # man proposes to a woman
+        print(man, woman_id)
 
         if woman_id:
             woman = women_dict[woman_id]

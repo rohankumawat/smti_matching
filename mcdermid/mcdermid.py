@@ -183,6 +183,7 @@ def phase3(matching, N):
         matching.append((man, woman)) # add each pair to the matching M
     return matching # return the updated matching M
 
+"""
 promoted_men = set() # assuming a list to keep track of promotions
 reactivated_men = set() # assuming a list to keep track of reactivations
 
@@ -212,3 +213,4 @@ if stalled_men:
         matching = phase3(matching, phase2_result)
 
 print(matching)
+"""
