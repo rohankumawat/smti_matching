@@ -77,7 +77,7 @@ class StableMarriageInstance:
             no_tie_list = self.men[man][:]
             tied_list = [[no_tie_list[0]]]
             for woman in no_tie_list[1:]:
-                if random.uniform(0,1) <= men_tie_density:
+                if random.uniform(0,1) < men_tie_density:
                     tied_list[-1].append(woman)
                 else:
                     tied_list.append([woman])
@@ -87,7 +87,7 @@ class StableMarriageInstance:
             no_tie_list = self.women[woman][:]
             tied_list = [[no_tie_list[0]]]
             for man in no_tie_list[1:]:
-                if random.uniform(0,1) <= women_tie_density:
+                if random.uniform(0,1) < women_tie_density:
                     tied_list[-1].append(man)
                 else:
                     tied_list.append([man])
@@ -112,7 +112,7 @@ class StableMarriageInstance:
                 continue # skip empty lists
             tied_list = [[no_tie_list[0]]]
             for woman in no_tie_list[1:]:
-                if random.uniform(0,1) <= men_tie_density:
+                if random.uniform(0,1) < men_tie_density:
                     tied_list[-1].append(woman)
                 else:
                     tied_list.append([woman])
@@ -124,7 +124,7 @@ class StableMarriageInstance:
                 continue # skip empty lists
             tied_list = [[no_tie_list[0]]]
             for man in no_tie_list[1:]:
-                if random.uniform(0,1) <= women_tie_density:
+                if random.uniform(0,1) < women_tie_density:
                     tied_list[-1].append(man)
                 else:
                     tied_list.append([man])

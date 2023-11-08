@@ -84,5 +84,5 @@ class SMTIFileReader():
 
             
         
-#s = SMTIFileReader()         
-#s.read("in4.txt")
+# s = SMTIFileReader()         
+# s.read("in4.txt")

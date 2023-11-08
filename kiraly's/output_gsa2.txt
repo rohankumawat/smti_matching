@@ -1,0 +1,1 @@
+Executing Kiraly's GSA2 on file: instance_0.txt

@@ -14,9 +14,26 @@ def read_preferences(file_path):
             man_id, *prefs = lines[i].split()
             men_preferences[man_id[:-1]] = prefs
 
-        for i in range(n_men+1, n_men+n_women+1):
-            woman_id, *prefs = lines[i].split()
-            women_preferences[woman_id[:-1]] = [p.split() for p in ' '.join(prefs).replace('(', ' ').replace(')', ' ').split()]
+        for i in range(n_men+1, len(lines)):
+            line = lines[i].strip()
+            woman_id, prefs = line.split(':')
+        
+            tied_prefs = []
+            ongoing_tie = False
+
+            for char in prefs:
+                if char.isdigit() and not ongoing_tie:
+                    tied_prefs.append([char])
+                elif char[0] == '(':
+                    tie = []
+                    ongoing_tie = True
+                elif char.isdigit() and ongoing_tie:
+                    tie.append(char)
+                elif char[-1] == ')':
+                    ongoing_tie = False
+                    tied_prefs.append(tie)
+        
+            women_preferences[woman_id] = tied_prefs
 
         return men_preferences, women_preferences
 
@@ -42,6 +59,7 @@ def execute_gsa1_on_files(directory_path):
             print(f"Execution time: {execution_time: .20f} seconds\n", file=output_file)
             print(f"Resulting matches: {matches}\n", file=output_file)
 
+            """
             # Converting matches to a list of tuples for the stability checker
             matching_tuples = [(man, woman) for man, woman in matches.items()]
             men_prefs, women_prefs = read_preferences(file_path)
@@ -57,6 +75,7 @@ def execute_gsa1_on_files(directory_path):
                 print(f"  {pair}", file=output_file)
             print("\n", file=output_file)
             """
+            """
             if stable_pairs == len(matching_tuples):
                 print(f"There are {str(stable_pairs)} stable pairs and {len(blocking_pairs)} blocking pairs.\n",)
             else:
@@ -68,5 +87,5 @@ def execute_gsa1_on_files(directory_path):
 
 if __name__ == "__main__":
     directory_path = "./examples"  # Adjust the path as needed
-    output_file_path = "./output.txt"  # Adjust the path as needed
+    output_file_path = "./output_gsa1.txt"  # Adjust the path as needed
     execute_gsa1_on_files(directory_path)

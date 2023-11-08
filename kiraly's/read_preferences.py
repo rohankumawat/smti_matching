@@ -12,9 +12,26 @@ def read_file(filename):
         man_id, *prefs = lines[i].split()
         men_preferences[man_id[:-1]] = prefs
 
-    for i in range(n_men+1, n_men+n_women+1):
-        woman_id, *prefs = lines[i].split()
-        women_preferences[woman_id[:-1]] = [p.split() for p in ' '.join(prefs).replace('(', ' ').replace(')', ' ').split()]
+    for i in range(n_men+1, len(lines)):
+        line = lines[i].strip()
+        woman_id, prefs = line.split(':')
+        
+        tied_prefs = []
+        ongoing_tie = False
+
+        for char in prefs:
+            if char.isdigit() and not ongoing_tie:
+                tied_prefs.append([char])
+            elif char[0] == '(':
+                tie = []
+                ongoing_tie = True
+            elif char.isdigit() and ongoing_tie:
+                tie.append(char)
+            elif char[-1] == ')':
+                ongoing_tie = False
+                tied_prefs.append(tie)
+        
+        women_preferences[woman_id] = tied_prefs
 
     return men_preferences, women_preferences
 
@@ -32,8 +49,7 @@ for woman_id, prefs in women_prefs.items():
     women_dict[woman_id].preferences = prefs
 
 print(women_prefs)
-'''
+
 matches = gsa1(men_dict, women_dict)
 
 print(matches)
-'''
