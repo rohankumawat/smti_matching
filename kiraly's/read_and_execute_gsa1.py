@@ -1,69 +1,102 @@
 import os
 import time
-from gsa1 import gsa1, Man, Woman
+from gsa1 import gsa1
 from stability_checker import is_stable
 
-def read_preferences(file_path):
-    with open(file_path, 'r') as file:
-        lines = file.readlines()
-        n_men, n_women = map(int, lines[0].split())
-        men_preferences = {}
-        women_preferences = {}
 
-        for i in range(1, n_men+1):
-            man_id, *prefs = lines[i].split()
-            men_preferences[man_id[:-1]] = prefs
+class SMTIFileReader():
+    def __init__(self):
+        self.men = dict()
+        self.women = dict()
         
-        for i in lines[int(n_men)+1:]:
-            line = i.strip().split(':')
-            line2 = line[1].strip().split()
 
-            woman_id = line[0]
-        
-            tied_prefs = []
-            ongoing_tie = False
-
-            for char in line2:
-                if char.isdigit() and not ongoing_tie:
-                    tied_prefs.append([char])
-                elif char[0] == '(':
-                    tie = []
-                    ongoing_tie = True
-                    tie.append(char[1:])
-                elif char.isdigit() and ongoing_tie:
-                    tie.append(char)
-                elif char[-1] == ')':
-                    tie.append(char[:-1])
-                    ongoing_tie = False
-                    tied_prefs.append(tie)
-        
-            women_preferences[woman_id] = tied_prefs
-        
-            women_preferences[woman_id] = tied_prefs
-
-        return men_preferences, women_preferences
+    def read(self, filename):
+        with open(filename) as I:
+            I = I.readlines()
+            instance_size = I[0].strip().split()
+            men_size, women_size = instance_size
+            # ..reading the men's preference list..
+            for line in I[1:int(men_size) + 1]:
+                line = line.strip().split(':')
+                line2 = line[1].strip().split()
+                m = f'm{line[0]}'
+                m_list = []                
+                ongoing_tie = False
+                m_list_rank = {}
+                w_rank = 1
+                for char in line2:
+                    if char.isdigit() and not ongoing_tie:
+                        m_list.append([f'w{char}'])
+                        m_list_rank[f'w{char}'] = w_rank
+                        w_rank += 1
+                    elif char[0]=='(':
+                        tie = []
+                        ongoing_tie = True
+                        tie.append(f'w{char[1:]}')
+                        m_list_rank[f'w{char[1:]}'] = w_rank
+                    elif char.isdigit() and ongoing_tie:
+                        tie.append(f'w{char}')
+                        m_list_rank[f'w{char}'] = w_rank
+                    elif char[-1] == ')':
+                        tie.append(f'w{char[:-1]}')
+                        m_list_rank[f'w{char[:-1]}'] = w_rank
+                        m_list.append(tie)                                                
+                        ongoing_tie = False
+                        w_rank += 1
+                self.men[m] = {"list": m_list, "list_rank": m_list_rank}
+                        
+                # print(m, self.men[m]) 
+                # print()
+                
+            # ..reading the women's preference list..
+            for line in I[int(men_size)+1: ]:
+                line = line.strip().split(':')
+                line2 = line[1].strip().split()
+                w = f'w{line[0]}'                
+                w_list = []                
+                ongoing_tie = False
+                w_list_rank = {}
+                m_rank = 1
+                for char in line2:
+                    if char.isdigit() and not ongoing_tie:
+                        w_list.append([f'm{char}'])
+                        w_list_rank[f'm{char}'] = m_rank
+                        m_rank += 1
+                    elif char[0]=='(':
+                        tie = []
+                        ongoing_tie = True  
+                        tie.append(f'm{char[1:]}')
+                        w_list_rank[f'm{char[1:]}'] = m_rank
+                    elif char.isdigit() and ongoing_tie:
+                        tie.append(f'm{char}')
+                        w_list_rank[f'm{char}'] = m_rank
+                    elif char[-1] == ')':
+                        tie.append(f'm{char[:-1]}')
+                        w_list_rank[f'm{char[:-1]}'] = m_rank
+                        w_list.append(tie)                                                
+                        ongoing_tie = False
+                        m_rank += 1
+                self.women[w] = {"list": w_list, "list_rank": w_list_rank}
+                # print(w, self.women[w])
+                # print()
+# s = SMTIFileReader()         
+# s.read("in4.txt")
 
 def execute_gsa1_on_files(directory_path):
     with open(output_file_path, 'w') as output_file:
         for filename in os.listdir(directory_path):
             file_path = os.path.join(directory_path, filename)
-            men_prefs, women_prefs = read_preferences(file_path)
 
-            men_dict = {man_id: Man(man_id) for man_id in men_prefs}
-            women_dict = {woman_id: Woman(woman_id) for woman_id in women_prefs}
-
-            for man_id, prefs in men_prefs.items():
-                men_dict[man_id].preferences = prefs
-
-            for woman_id, prefs in women_prefs.items():
-                women_dict[woman_id].preferences = prefs
+            s = SMTIFileReader()
+            s.read(file_path)
+            men_preferences, women_preferences = s.men, s.women
 
             print(f"Executing Kiraly's GSA1 on file: {filename}", file=output_file)
             start_time = time.time()
-            matches = gsa1(men_dict, women_dict)
+            men_status, women_engaged = gsa1(men_preferences, women_preferences)
             execution_time = time.time() - start_time
             print(f"Execution time: {execution_time: .20f} seconds\n", file=output_file)
-            print(f"Resulting matches: {matches}\n", file=output_file)
+            print(f"Resulting matches: {men_status}\n", file=output_file)
 
             """
             # Converting matches to a list of tuples for the stability checker
@@ -90,8 +123,7 @@ def execute_gsa1_on_files(directory_path):
             """
 
 
-
 if __name__ == "__main__":
-    directory_path = "./examples"  # Adjust the path as needed
-    output_file_path = "./output_gsa1.txt"  # Adjust the path as needed
+    directory_path = "./instances_100_size_100"  # Adjust the path as needed
+    output_file_path = "./output_gsa1_size_100.txt"  # Adjust the path as needed
     execute_gsa1_on_files(directory_path)
