@@ -20,13 +20,13 @@ old bachelor and will remain inactive forever.
 """
 
 def gsa1(men_preferences, women_preferences):
-    n = len(men_preferences)
-    men_status = {man: None for man in men_preferences}
-    men_list = {man: men_preferences[man]['list'][:] for man in men_preferences}
-    women_engaged = {}
-    men_index = {man: 0 for man in men_preferences}
-    active_men = list(men_preferences.keys())
-    men_attempts = {man: 0 for man in men_preferences}
+    n = len(men_preferences) # number of men
+    men_status = {man: None for man in men_preferences} # initialise the status of each man as a lad
+    men_list = {man: men_preferences[man]['list'][:] for man in men_preferences} # copy the preference lists of men (used for proposing to women)
+    women_engaged = {} # keep track of engaged couples (woman: man)
+    men_index = {man: 0 for man in men_preferences} # initialise the index of each man's list (used for proposing to women)
+    active_men = list(men_preferences.keys()) # list of active men who have not yet proposed to all women on their list
+    men_attempts = {man: 0 for man in men_preferences} # keep track of the number of attempts each man has made to propose
 
     while active_men:
         # get the first man on the active list

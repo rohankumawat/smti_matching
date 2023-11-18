@@ -84,5 +84,7 @@ class SMTIFileReader():
 
             
         
-# s = SMTIFileReader()         
-# s.read("in4.txt")
+s = SMTIFileReader()         
+s.read("instance_0.txt")
+print(s.men)
+print(s.women)
