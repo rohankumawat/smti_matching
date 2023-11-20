@@ -20,7 +20,7 @@ def execute_ip_model_on_files(directory_path):
             print(f"Blocking pair: {blocking_pairs} \n", file=output_file)
 
 if __name__ == "__main__":
-    directory_path = "../experiments/men_have_strictly_ordered_lists/large_instances/instances_size_500"
-    output_file_path = "../experiments/men_have_strictly_ordered_lists/results/ip_model_size_500.txt"
+    directory_path = "../experiments/men_have_strictly_ordered_lists/small_instances/instances_size_10"
+    output_file_path = "../experiments/men_have_strictly_ordered_lists/results/ip_model_size_10.txt"
     # execute_gsa1_on_files(directory_path)
     execute_ip_model_on_files(directory_path)

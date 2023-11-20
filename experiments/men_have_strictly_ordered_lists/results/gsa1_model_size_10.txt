@@ -1,0 +1,1050 @@
+Executing Kiraly's GSA1 on file: instance_0.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': None, 'm3': 'w1', 'm4': 'w10', 'm5': 'w3', 'm6': 'w2', 'm7': 'w4', 'm8': 'w7', 'm9': 'w8', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_1.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w2', 'm3': 'w5', 'm4': None, 'm5': 'w3', 'm6': 'w4', 'm7': 'w6', 'm8': 'w1', 'm9': 'w7', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_10.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w2', 'm2': 'w4', 'm3': 'w3', 'm4': 'w9', 'm5': 'w5', 'm6': 'w7', 'm7': 'w1', 'm8': 'w8', 'm9': 'w6', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_100.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': None, 'm2': 'w10', 'm3': None, 'm4': 'w4', 'm5': 'w6', 'm6': 'w3', 'm7': 'w7', 'm8': 'w8', 'm9': 'w1', 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_101.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w1', 'm2': 'w6', 'm3': 'w8', 'm4': None, 'm5': 'w5', 'm6': 'w7', 'm7': 'w2', 'm8': None, 'm9': 'w10', 'm10': 'w4'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_102.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w9', 'm3': 'w5', 'm4': 'w4', 'm5': 'w2', 'm6': 'w1', 'm7': None, 'm8': 'w10', 'm9': 'w7', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_103.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w7', 'm3': 'w5', 'm4': 'w4', 'm5': 'w3', 'm6': 'w2', 'm7': 'w8', 'm8': 'w1', 'm9': 'w6', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_104.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w8', 'm3': 'w5', 'm4': 'w9', 'm5': 'w3', 'm6': 'w10', 'm7': None, 'm8': 'w1', 'm9': 'w2', 'm10': 'w7'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_105.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w10', 'm3': 'w7', 'm4': 'w4', 'm5': 'w5', 'm6': 'w6', 'm7': 'w1', 'm8': 'w9', 'm9': 'w3', 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_106.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w8', 'm3': 'w9', 'm4': 'w4', 'm5': 'w7', 'm6': 'w2', 'm7': 'w10', 'm8': None, 'm9': 'w1', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_107.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w7', 'm3': 'w1', 'm4': 'w6', 'm5': 'w5', 'm6': 'w10', 'm7': None, 'm8': 'w4', 'm9': 'w8', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_108.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w3', 'm2': 'w10', 'm3': 'w2', 'm4': 'w6', 'm5': 'w8', 'm6': None, 'm7': 'w7', 'm8': 'w5', 'm9': 'w1', 'm10': 'w9'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_109.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w4', 'm3': 'w5', 'm4': 'w6', 'm5': 'w3', 'm6': 'w8', 'm7': 'w2', 'm8': 'w9', 'm9': 'w7', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_11.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w3', 'm2': 'w6', 'm3': 'w7', 'm4': 'w1', 'm5': 'w4', 'm6': 'w2', 'm7': 'w5', 'm8': 'w9', 'm9': 'w10', 'm10': 'w8'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_110.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w10', 'm3': 'w8', 'm4': 'w6', 'm5': None, 'm6': 'w9', 'm7': 'w1', 'm8': 'w3', 'm9': 'w4', 'm10': 'w7'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_111.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w2', 'm3': 'w10', 'm4': 'w8', 'm5': 'w1', 'm6': 'w5', 'm7': None, 'm8': 'w6', 'm9': 'w3', 'm10': 'w4'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_112.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w2', 'm2': 'w4', 'm3': 'w1', 'm4': 'w3', 'm5': None, 'm6': 'w9', 'm7': 'w6', 'm8': 'w5', 'm9': 'w7', 'm10': 'w8'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_113.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w10', 'm3': 'w3', 'm4': 'w8', 'm5': 'w6', 'm6': 'w2', 'm7': 'w4', 'm8': None, 'm9': 'w7', 'm10': 'w9'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_114.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w1', 'm2': 'w3', 'm3': 'w10', 'm4': 'w9', 'm5': 'w7', 'm6': 'w4', 'm7': 'w2', 'm8': 'w6', 'm9': 'w5', 'm10': 'w8'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_115.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w3', 'm3': 'w6', 'm4': 'w2', 'm5': 'w5', 'm6': 'w7', 'm7': 'w8', 'm8': 'w1', 'm9': 'w4', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_116.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w3', 'm2': 'w5', 'm3': 'w7', 'm4': 'w10', 'm5': 'w1', 'm6': 'w2', 'm7': 'w6', 'm8': 'w8', 'm9': 'w4', 'm10': 'w9'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_117.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w1', 'm2': None, 'm3': 'w2', 'm4': 'w5', 'm5': 'w3', 'm6': None, 'm7': 'w10', 'm8': 'w9', 'm9': 'w4', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_118.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w1', 'm3': 'w6', 'm4': 'w2', 'm5': 'w8', 'm6': 'w9', 'm7': None, 'm8': 'w7', 'm9': 'w3', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_119.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w2', 'm3': 'w8', 'm4': 'w6', 'm5': 'w3', 'm6': 'w4', 'm7': 'w1', 'm8': 'w7', 'm9': 'w5', 'm10': 'w9'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_12.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': None, 'm2': 'w1', 'm3': 'w2', 'm4': 'w7', 'm5': 'w10', 'm6': 'w6', 'm7': 'w3', 'm8': 'w9', 'm9': 'w8', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_120.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w9', 'm3': None, 'm4': 'w8', 'm5': 'w2', 'm6': 'w5', 'm7': None, 'm8': 'w3', 'm9': 'w7', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_121.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w7', 'm3': 'w8', 'm4': 'w9', 'm5': 'w2', 'm6': None, 'm7': 'w1', 'm8': 'w6', 'm9': 'w10', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_122.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w2', 'm3': 'w6', 'm4': 'w5', 'm5': 'w7', 'm6': 'w10', 'm7': 'w8', 'm8': 'w9', 'm9': 'w1', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_123.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w8', 'm3': 'w4', 'm4': None, 'm5': 'w7', 'm6': 'w3', 'm7': 'w2', 'm8': 'w1', 'm9': 'w5', 'm10': 'w9'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_124.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w3', 'm3': 'w10', 'm4': 'w9', 'm5': 'w4', 'm6': None, 'm7': 'w5', 'm8': None, 'm9': 'w7', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_125.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w9', 'm3': 'w5', 'm4': 'w7', 'm5': 'w10', 'm6': None, 'm7': 'w2', 'm8': 'w8', 'm9': 'w6', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_126.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w7', 'm3': 'w2', 'm4': 'w9', 'm5': 'w1', 'm6': None, 'm7': 'w6', 'm8': 'w5', 'm9': 'w3', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_127.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w2', 'm3': None, 'm4': 'w8', 'm5': 'w6', 'm6': 'w1', 'm7': 'w4', 'm8': 'w7', 'm9': None, 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_128.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w4', 'm3': 'w1', 'm4': 'w7', 'm5': 'w8', 'm6': 'w3', 'm7': 'w6', 'm8': 'w9', 'm9': None, 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_129.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w8', 'm3': 'w4', 'm4': 'w7', 'm5': 'w1', 'm6': 'w9', 'm7': None, 'm8': 'w6', 'm9': 'w10', 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_13.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w5', 'm3': 'w4', 'm4': 'w8', 'm5': 'w2', 'm6': None, 'm7': 'w10', 'm8': None, 'm9': 'w9', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_130.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w7', 'm3': 'w9', 'm4': None, 'm5': 'w8', 'm6': 'w3', 'm7': 'w4', 'm8': 'w10', 'm9': 'w1', 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_131.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w4', 'm3': 'w10', 'm4': 'w2', 'm5': 'w1', 'm6': 'w5', 'm7': 'w3', 'm8': 'w7', 'm9': 'w9', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_132.txt
+Execution time:  0.006057024002075195312500000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w6', 'm3': 'w9', 'm4': 'w3', 'm5': 'w1', 'm6': 'w5', 'm7': None, 'm8': 'w4', 'm9': 'w2', 'm10': 'w7'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_133.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w4', 'm3': 'w3', 'm4': 'w2', 'm5': None, 'm6': 'w6', 'm7': 'w1', 'm8': 'w5', 'm9': 'w7', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_134.txt
+Execution time:  0.000503063201904296875000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w3', 'm3': None, 'm4': 'w10', 'm5': 'w8', 'm6': 'w1', 'm7': 'w4', 'm8': 'w6', 'm9': 'w2', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_135.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w1', 'm2': None, 'm3': 'w6', 'm4': 'w4', 'm5': 'w9', 'm6': 'w5', 'm7': 'w2', 'm8': 'w3', 'm9': 'w8', 'm10': 'w7'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_136.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w1', 'm3': 'w2', 'm4': 'w7', 'm5': 'w5', 'm6': 'w6', 'm7': 'w10', 'm8': 'w3', 'm9': 'w4', 'm10': 'w9'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_137.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': None, 'm3': None, 'm4': 'w10', 'm5': 'w3', 'm6': 'w5', 'm7': 'w7', 'm8': 'w4', 'm9': 'w2', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_138.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w10', 'm3': 'w6', 'm4': 'w1', 'm5': None, 'm6': 'w9', 'm7': 'w2', 'm8': 'w4', 'm9': 'w5', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_139.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w2', 'm3': 'w4', 'm4': 'w3', 'm5': 'w5', 'm6': 'w7', 'm7': 'w1', 'm8': None, 'm9': 'w6', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_14.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w3', 'm2': 'w5', 'm3': 'w7', 'm4': 'w1', 'm5': 'w8', 'm6': 'w6', 'm7': 'w9', 'm8': 'w4', 'm9': None, 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_140.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w10', 'm3': 'w8', 'm4': 'w2', 'm5': 'w4', 'm6': 'w7', 'm7': 'w1', 'm8': 'w6', 'm9': 'w3', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_141.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w1', 'm3': 'w8', 'm4': 'w3', 'm5': None, 'm6': 'w4', 'm7': 'w5', 'm8': 'w10', 'm9': 'w9', 'm10': 'w7'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_142.txt
+Execution time:  0.001225471496582031250000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w5', 'm3': 'w6', 'm4': 'w1', 'm5': 'w10', 'm6': 'w9', 'm7': 'w2', 'm8': 'w4', 'm9': 'w8', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_143.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w9', 'm3': 'w5', 'm4': 'w7', 'm5': 'w3', 'm6': 'w2', 'm7': 'w8', 'm8': None, 'm9': 'w4', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_144.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w2', 'm2': 'w10', 'm3': 'w9', 'm4': 'w7', 'm5': None, 'm6': 'w8', 'm7': 'w4', 'm8': 'w1', 'm9': 'w6', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_145.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': None, 'm3': 'w2', 'm4': 'w5', 'm5': 'w4', 'm6': 'w1', 'm7': 'w8', 'm8': 'w10', 'm9': 'w6', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_146.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w9', 'm3': 'w8', 'm4': 'w3', 'm5': 'w2', 'm6': 'w7', 'm7': 'w10', 'm8': 'w6', 'm9': 'w4', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_147.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w2', 'm2': 'w1', 'm3': None, 'm4': 'w3', 'm5': 'w5', 'm6': 'w4', 'm7': 'w10', 'm8': None, 'm9': 'w8', 'm10': 'w7'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_148.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w5', 'm3': 'w9', 'm4': 'w1', 'm5': 'w10', 'm6': 'w8', 'm7': 'w2', 'm8': 'w3', 'm9': 'w7', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_149.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w8', 'm3': 'w3', 'm4': 'w7', 'm5': 'w9', 'm6': 'w6', 'm7': 'w2', 'm8': 'w4', 'm9': 'w10', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_15.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w4', 'm3': 'w7', 'm4': 'w1', 'm5': 'w8', 'm6': 'w9', 'm7': 'w6', 'm8': 'w3', 'm9': 'w2', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_16.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w2', 'm2': 'w8', 'm3': 'w6', 'm4': 'w10', 'm5': 'w5', 'm6': 'w7', 'm7': 'w1', 'm8': 'w4', 'm9': 'w3', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_17.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w2', 'm3': 'w10', 'm4': 'w9', 'm5': 'w3', 'm6': 'w7', 'm7': 'w8', 'm8': 'w6', 'm9': 'w4', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_18.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w3', 'm3': 'w7', 'm4': 'w5', 'm5': 'w10', 'm6': 'w2', 'm7': 'w9', 'm8': 'w1', 'm9': 'w6', 'm10': 'w8'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_19.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': None, 'm2': 'w1', 'm3': 'w8', 'm4': 'w4', 'm5': 'w6', 'm6': 'w5', 'm7': 'w7', 'm8': 'w9', 'm9': 'w3', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_2.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w8', 'm3': 'w2', 'm4': 'w6', 'm5': 'w9', 'm6': 'w7', 'm7': 'w1', 'm8': None, 'm9': None, 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_20.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w3', 'm3': 'w6', 'm4': 'w8', 'm5': 'w2', 'm6': 'w9', 'm7': 'w7', 'm8': 'w5', 'm9': 'w4', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_21.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w5', 'm3': 'w3', 'm4': 'w4', 'm5': None, 'm6': 'w10', 'm7': None, 'm8': 'w9', 'm9': 'w8', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_22.txt
+Execution time:  0.000503063201904296875000000000 seconds
+
+Resulting matches: {'m1': None, 'm2': 'w4', 'm3': 'w1', 'm4': 'w7', 'm5': 'w8', 'm6': 'w6', 'm7': None, 'm8': 'w10', 'm9': 'w5', 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_23.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': None, 'm3': 'w2', 'm4': 'w3', 'm5': 'w4', 'm6': 'w9', 'm7': 'w5', 'm8': 'w7', 'm9': 'w10', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_24.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w2', 'm2': 'w4', 'm3': 'w8', 'm4': 'w5', 'm5': None, 'm6': 'w10', 'm7': 'w7', 'm8': 'w3', 'm9': 'w1', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_25.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': None, 'm3': 'w4', 'm4': 'w10', 'm5': 'w5', 'm6': 'w7', 'm7': 'w8', 'm8': 'w1', 'm9': 'w3', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_26.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w6', 'm3': 'w3', 'm4': 'w10', 'm5': 'w8', 'm6': 'w1', 'm7': 'w7', 'm8': 'w9', 'm9': 'w4', 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_27.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w3', 'm2': 'w1', 'm3': 'w4', 'm4': 'w10', 'm5': 'w6', 'm6': 'w5', 'm7': 'w7', 'm8': None, 'm9': 'w2', 'm10': 'w8'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_28.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w9', 'm3': 'w6', 'm4': 'w10', 'm5': 'w3', 'm6': 'w7', 'm7': 'w4', 'm8': 'w2', 'm9': 'w8', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_29.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w3', 'm3': 'w4', 'm4': 'w5', 'm5': 'w10', 'm6': 'w7', 'm7': 'w6', 'm8': 'w2', 'm9': 'w8', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_3.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w1', 'm3': 'w4', 'm4': 'w10', 'm5': None, 'm6': 'w6', 'm7': 'w2', 'm8': 'w3', 'm9': 'w7', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_30.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w1', 'm3': 'w8', 'm4': 'w10', 'm5': 'w7', 'm6': 'w6', 'm7': 'w3', 'm8': 'w2', 'm9': 'w9', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_31.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w7', 'm3': 'w3', 'm4': 'w1', 'm5': None, 'm6': 'w6', 'm7': 'w9', 'm8': 'w4', 'm9': 'w2', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_32.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': None, 'm2': 'w3', 'm3': 'w2', 'm4': 'w5', 'm5': 'w6', 'm6': 'w4', 'm7': 'w9', 'm8': 'w1', 'm9': 'w8', 'm10': 'w7'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_33.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w1', 'm3': 'w6', 'm4': 'w5', 'm5': 'w10', 'm6': 'w8', 'm7': 'w2', 'm8': 'w4', 'm9': None, 'm10': 'w9'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_34.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w7', 'm3': 'w5', 'm4': 'w2', 'm5': 'w3', 'm6': 'w1', 'm7': 'w8', 'm8': None, 'm9': None, 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_35.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w7', 'm3': None, 'm4': 'w1', 'm5': 'w3', 'm6': 'w4', 'm7': 'w10', 'm8': 'w5', 'm9': 'w2', 'm10': 'w8'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_36.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': None, 'm2': 'w7', 'm3': 'w2', 'm4': None, 'm5': 'w8', 'm6': 'w9', 'm7': 'w5', 'm8': 'w1', 'm9': 'w3', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_37.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w2', 'm3': None, 'm4': 'w4', 'm5': 'w5', 'm6': 'w8', 'm7': 'w3', 'm8': 'w6', 'm9': 'w10', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_38.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': None, 'm3': 'w10', 'm4': 'w6', 'm5': 'w2', 'm6': 'w1', 'm7': 'w4', 'm8': 'w7', 'm9': 'w8', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_39.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w9', 'm3': 'w2', 'm4': 'w3', 'm5': None, 'm6': 'w1', 'm7': 'w7', 'm8': 'w6', 'm9': 'w4', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_4.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': None, 'm3': 'w1', 'm4': 'w10', 'm5': 'w6', 'm6': 'w5', 'm7': 'w8', 'm8': 'w4', 'm9': None, 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_40.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w6', 'm3': 'w2', 'm4': 'w5', 'm5': 'w3', 'm6': None, 'm7': 'w4', 'm8': 'w1', 'm9': 'w10', 'm10': 'w8'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_41.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w4', 'm3': None, 'm4': 'w8', 'm5': 'w6', 'm6': 'w2', 'm7': 'w1', 'm8': 'w3', 'm9': None, 'm10': 'w7'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_42.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': None, 'm3': 'w3', 'm4': 'w1', 'm5': 'w6', 'm6': 'w9', 'm7': 'w2', 'm8': 'w7', 'm9': 'w10', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_43.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w6', 'm3': 'w2', 'm4': 'w5', 'm5': 'w3', 'm6': 'w4', 'm7': 'w7', 'm8': 'w1', 'm9': 'w8', 'm10': 'w9'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_44.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w3', 'm2': 'w9', 'm3': 'w7', 'm4': 'w4', 'm5': 'w6', 'm6': 'w5', 'm7': 'w8', 'm8': 'w2', 'm9': None, 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_45.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w3', 'm2': 'w10', 'm3': 'w6', 'm4': 'w8', 'm5': 'w1', 'm6': None, 'm7': 'w2', 'm8': 'w9', 'm9': 'w7', 'm10': 'w4'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_46.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w1', 'm3': 'w9', 'm4': 'w2', 'm5': 'w3', 'm6': 'w7', 'm7': 'w4', 'm8': 'w8', 'm9': 'w10', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_47.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w2', 'm3': 'w4', 'm4': None, 'm5': 'w6', 'm6': 'w5', 'm7': 'w3', 'm8': None, 'm9': 'w8', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_48.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w3', 'm2': None, 'm3': 'w4', 'm4': None, 'm5': 'w6', 'm6': 'w7', 'm7': 'w1', 'm8': 'w10', 'm9': 'w9', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_49.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w7', 'm3': None, 'm4': 'w3', 'm5': 'w2', 'm6': 'w10', 'm7': 'w5', 'm8': 'w4', 'm9': 'w9', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_5.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w2', 'm2': 'w7', 'm3': 'w1', 'm4': 'w6', 'm5': 'w9', 'm6': 'w8', 'm7': None, 'm8': 'w5', 'm9': 'w10', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_50.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w10', 'm3': 'w1', 'm4': 'w8', 'm5': 'w3', 'm6': None, 'm7': 'w9', 'm8': 'w7', 'm9': 'w6', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_51.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w9', 'm3': 'w1', 'm4': 'w4', 'm5': 'w8', 'm6': 'w10', 'm7': 'w3', 'm8': 'w5', 'm9': 'w2', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_52.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w6', 'm3': 'w8', 'm4': 'w1', 'm5': 'w2', 'm6': 'w7', 'm7': None, 'm8': 'w3', 'm9': 'w9', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_53.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w1', 'm2': None, 'm3': 'w7', 'm4': 'w9', 'm5': 'w2', 'm6': 'w3', 'm7': 'w8', 'm8': 'w5', 'm9': 'w10', 'm10': 'w4'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_54.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w4', 'm3': 'w1', 'm4': 'w2', 'm5': 'w7', 'm6': 'w5', 'm7': 'w3', 'm8': 'w8', 'm9': None, 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_55.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w5', 'm3': 'w4', 'm4': 'w3', 'm5': 'w9', 'm6': 'w10', 'm7': 'w7', 'm8': None, 'm9': 'w8', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_56.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w1', 'm2': 'w8', 'm3': 'w10', 'm4': 'w4', 'm5': 'w2', 'm6': None, 'm7': 'w6', 'm8': 'w5', 'm9': 'w9', 'm10': 'w7'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_57.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w4', 'm3': 'w10', 'm4': 'w2', 'm5': 'w1', 'm6': 'w3', 'm7': 'w7', 'm8': None, 'm9': 'w9', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_58.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w6', 'm3': 'w9', 'm4': 'w5', 'm5': 'w8', 'm6': 'w2', 'm7': 'w1', 'm8': 'w10', 'm9': None, 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_59.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w1', 'm3': 'w10', 'm4': 'w5', 'm5': 'w7', 'm6': 'w6', 'm7': 'w9', 'm8': 'w3', 'm9': 'w4', 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_6.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w8', 'm2': 'w6', 'm3': 'w5', 'm4': 'w7', 'm5': 'w9', 'm6': 'w1', 'm7': None, 'm8': 'w4', 'm9': 'w2', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_60.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w3', 'm2': 'w7', 'm3': 'w6', 'm4': 'w4', 'm5': 'w10', 'm6': None, 'm7': 'w9', 'm8': None, 'm9': 'w5', 'm10': 'w8'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_61.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': None, 'm2': 'w6', 'm3': 'w3', 'm4': 'w5', 'm5': 'w10', 'm6': 'w2', 'm7': 'w9', 'm8': 'w1', 'm9': 'w7', 'm10': 'w4'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_62.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w8', 'm3': None, 'm4': 'w10', 'm5': 'w1', 'm6': 'w7', 'm7': 'w2', 'm8': None, 'm9': 'w3', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_63.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': None, 'm2': 'w2', 'm3': 'w4', 'm4': 'w10', 'm5': 'w7', 'm6': 'w3', 'm7': 'w1', 'm8': None, 'm9': 'w6', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_64.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': None, 'm2': 'w6', 'm3': 'w2', 'm4': 'w4', 'm5': 'w3', 'm6': 'w9', 'm7': 'w7', 'm8': 'w8', 'm9': 'w10', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_65.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w5', 'm3': 'w3', 'm4': 'w9', 'm5': None, 'm6': 'w1', 'm7': 'w10', 'm8': 'w7', 'm9': 'w8', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_66.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w4', 'm3': 'w3', 'm4': 'w8', 'm5': 'w1', 'm6': None, 'm7': 'w9', 'm8': 'w2', 'm9': 'w7', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_67.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w1', 'm2': 'w9', 'm3': 'w7', 'm4': 'w3', 'm5': 'w6', 'm6': 'w10', 'm7': 'w5', 'm8': 'w4', 'm9': 'w8', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_68.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w1', 'm2': 'w3', 'm3': 'w2', 'm4': 'w5', 'm5': 'w8', 'm6': 'w10', 'm7': 'w7', 'm8': 'w9', 'm9': 'w6', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_69.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w4', 'm3': 'w9', 'm4': 'w8', 'm5': 'w3', 'm6': 'w5', 'm7': 'w6', 'm8': None, 'm9': 'w2', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_7.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w1', 'm3': 'w8', 'm4': None, 'm5': 'w6', 'm6': 'w10', 'm7': None, 'm8': 'w3', 'm9': 'w2', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_70.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w1', 'm2': 'w2', 'm3': 'w10', 'm4': 'w4', 'm5': 'w3', 'm6': 'w5', 'm7': 'w6', 'm8': None, 'm9': 'w7', 'm10': 'w8'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_71.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w2', 'm3': 'w10', 'm4': 'w7', 'm5': 'w3', 'm6': 'w9', 'm7': None, 'm8': 'w6', 'm9': None, 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_72.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w8', 'm3': 'w7', 'm4': 'w10', 'm5': 'w3', 'm6': 'w2', 'm7': 'w9', 'm8': 'w4', 'm9': 'w5', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_73.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w7', 'm3': None, 'm4': 'w3', 'm5': 'w10', 'm6': 'w4', 'm7': 'w6', 'm8': 'w8', 'm9': 'w9', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_74.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w1', 'm3': 'w2', 'm4': 'w7', 'm5': None, 'm6': 'w5', 'm7': 'w6', 'm8': 'w3', 'm9': 'w8', 'm10': 'w4'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_75.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w5', 'm3': 'w9', 'm4': 'w2', 'm5': None, 'm6': None, 'm7': 'w10', 'm8': 'w1', 'm9': 'w4', 'm10': 'w7'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_76.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w3', 'm3': 'w8', 'm4': 'w1', 'm5': 'w9', 'm6': 'w6', 'm7': 'w2', 'm8': 'w10', 'm9': 'w4', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_77.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w2', 'm3': 'w3', 'm4': 'w7', 'm5': 'w8', 'm6': 'w9', 'm7': 'w6', 'm8': None, 'm9': 'w10', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_78.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w4', 'm3': 'w1', 'm4': None, 'm5': None, 'm6': 'w6', 'm7': 'w8', 'm8': 'w9', 'm9': 'w2', 'm10': 'w7'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_79.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w4', 'm3': 'w5', 'm4': 'w10', 'm5': 'w9', 'm6': 'w1', 'm7': 'w7', 'm8': 'w8', 'm9': None, 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_8.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w9', 'm3': 'w3', 'm4': None, 'm5': 'w6', 'm6': 'w4', 'm7': 'w1', 'm8': 'w2', 'm9': 'w5', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_80.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w2', 'm2': 'w10', 'm3': 'w9', 'm4': 'w4', 'm5': 'w8', 'm6': 'w1', 'm7': 'w7', 'm8': None, 'm9': 'w5', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_81.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': None, 'm3': 'w7', 'm4': 'w8', 'm5': 'w9', 'm6': 'w10', 'm7': 'w4', 'm8': 'w3', 'm9': 'w1', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_82.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w3', 'm3': 'w1', 'm4': 'w8', 'm5': 'w9', 'm6': 'w10', 'm7': 'w5', 'm8': 'w4', 'm9': 'w6', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_83.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w3', 'm2': 'w8', 'm3': 'w1', 'm4': 'w9', 'm5': 'w4', 'm6': 'w5', 'm7': 'w7', 'm8': 'w10', 'm9': 'w6', 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_84.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w8', 'm3': None, 'm4': 'w2', 'm5': 'w10', 'm6': 'w9', 'm7': 'w4', 'm8': 'w1', 'm9': 'w5', 'm10': 'w6'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_85.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w4', 'm3': 'w10', 'm4': None, 'm5': 'w6', 'm6': 'w9', 'm7': 'w1', 'm8': 'w2', 'm9': 'w5', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_86.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w1', 'm3': 'w4', 'm4': 'w2', 'm5': 'w8', 'm6': 'w5', 'm7': 'w6', 'm8': 'w3', 'm9': 'w7', 'm10': 'w10'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_87.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w7', 'm3': 'w4', 'm4': 'w9', 'm5': 'w8', 'm6': 'w1', 'm7': 'w6', 'm8': 'w10', 'm9': 'w2', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_88.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w7', 'm3': 'w5', 'm4': 'w8', 'm5': 'w4', 'm6': 'w10', 'm7': None, 'm8': 'w2', 'm9': 'w3', 'm10': 'w1'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_89.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w10', 'm2': 'w7', 'm3': 'w5', 'm4': 'w2', 'm5': 'w1', 'm6': 'w9', 'm7': 'w6', 'm8': 'w8', 'm9': None, 'm10': 'w4'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_9.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w7', 'm3': 'w1', 'm4': None, 'm5': 'w10', 'm6': 'w3', 'm7': 'w8', 'm8': 'w6', 'm9': 'w4', 'm10': 'w2'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_90.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w5', 'm2': 'w4', 'm3': 'w6', 'm4': 'w8', 'm5': 'w3', 'm6': 'w7', 'm7': None, 'm8': 'w10', 'm9': 'w2', 'm10': 'w9'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_91.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w9', 'm2': 'w2', 'm3': 'w8', 'm4': 'w6', 'm5': None, 'm6': 'w5', 'm7': 'w1', 'm8': 'w10', 'm9': 'w7', 'm10': 'w4'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_92.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w3', 'm2': 'w1', 'm3': 'w10', 'm4': None, 'm5': 'w8', 'm6': 'w4', 'm7': 'w6', 'm8': 'w7', 'm9': 'w5', 'm10': 'w9'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_93.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w7', 'm2': 'w5', 'm3': 'w2', 'm4': 'w4', 'm5': 'w8', 'm6': None, 'm7': 'w10', 'm8': 'w1', 'm9': 'w6', 'm10': 'w9'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_94.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w9', 'm3': 'w10', 'm4': 'w5', 'm5': None, 'm6': 'w1', 'm7': 'w3', 'm8': 'w6', 'm9': 'w7', 'm10': 'w8'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_95.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w2', 'm2': 'w7', 'm3': 'w6', 'm4': 'w10', 'm5': 'w4', 'm6': 'w1', 'm7': 'w8', 'm8': None, 'm9': 'w3', 'm10': 'w5'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_96.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': None, 'm2': 'w7', 'm3': 'w10', 'm4': 'w1', 'm5': 'w5', 'm6': 'w2', 'm7': 'w9', 'm8': 'w4', 'm9': 'w8', 'm10': 'w3'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_97.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w6', 'm2': 'w1', 'm3': 'w9', 'm4': 'w5', 'm5': 'w8', 'm6': 'w2', 'm7': None, 'm8': None, 'm9': 'w3', 'm10': 'w4'}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_98.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': None, 'm2': 'w10', 'm3': 'w9', 'm4': 'w6', 'm5': 'w7', 'm6': 'w8', 'm7': 'w3', 'm8': 'w2', 'm9': 'w1', 'm10': None}
+
+Blocking pair: False 
+
+Executing Kiraly's GSA1 on file: instance_99.txt
+Execution time:  0.000000000000000000000000000000 seconds
+
+Resulting matches: {'m1': 'w4', 'm2': 'w6', 'm3': 'w10', 'm4': 'w5', 'm5': None, 'm6': 'w9', 'm7': 'w8', 'm8': 'w3', 'm9': None, 'm10': 'w2'}
+
+Blocking pair: False 
+

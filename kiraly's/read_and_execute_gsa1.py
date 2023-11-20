@@ -1,7 +1,7 @@
 import os
 import time
 from gsa1 import gsa1
-from stability_checker import is_stable
+from blocking_pair import check_blocking_pairs
 
 
 class SMTIFileReader():
@@ -95,8 +95,10 @@ def execute_gsa1_on_files(directory_path):
             start_time = time.time()
             men_status, women_engaged = gsa1(men_preferences, women_preferences)
             execution_time = time.time() - start_time
-            print(f"Execution time: {execution_time: .20f} seconds\n", file=output_file)
+            blocking_pairs = check_blocking_pairs(men_preferences, women_preferences, men_status, women_engaged)
+            print(f"Execution time: {execution_time: .30f} seconds\n", file=output_file)
             print(f"Resulting matches: {men_status}\n", file=output_file)
+            print(f"Blocking pair: {blocking_pairs} \n", file=output_file)
 
             """
             # Converting matches to a list of tuples for the stability checker
@@ -124,6 +126,6 @@ def execute_gsa1_on_files(directory_path):
 
 
 if __name__ == "__main__":
-    directory_path = "./instances_100_size_100"  # Adjust the path as needed
-    output_file_path = "./output_gsa1_size_100.txt"  # Adjust the path as needed
+    directory_path = "../experiments/men_have_strictly_ordered_lists/large_instances/instances_size_1000"  # Adjust the path as needed
+    output_file_path = "../experiments/men_have_strictly_ordered_lists/results/gsa1_model_size_1000.txt"  # Adjust the path as needed
     execute_gsa1_on_files(directory_path)
