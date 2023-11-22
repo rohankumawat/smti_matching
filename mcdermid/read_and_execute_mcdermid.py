@@ -107,6 +107,6 @@ def execute_mcdermid_on_files(directory_path):
             print(f"Resulting matches: {matching} \n", file=output_file)
             
 if __name__ == "__main__":
-    directory_path = "./instances"
+    directory_path = "../experiments/men_have_strictly_ordered_lists/large_instances/instances_size_200"
     output_file_path = "./output_mcdermid.txt"
     execute_mcdermid_on_files(directory_path)
