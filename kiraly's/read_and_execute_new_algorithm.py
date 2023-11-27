@@ -1,10 +1,8 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct  2 15:28:21 2023
+import os
+import time
+from new_algorithm import new_algorithm
+from blocking_pair import check_blocking_pairs
 
-@author: sofiat
-"""
 
 class SMTIFileReader():
     def __init__(self):
@@ -81,10 +79,61 @@ class SMTIFileReader():
                 self.women[w] = {"list": w_list, "list_rank": w_list_rank}
                 # print(w, self.women[w])
                 # print()
+# s = SMTIFileReader()         
+# s.read("in4.txt")
 
+def execute_gsa1_on_files(directory_path):
+    with open(output_file_path, 'w') as output_file:
+        for filename in os.listdir(directory_path):
+            file_path = os.path.join(directory_path, filename)
+
+            s = SMTIFileReader()
+            s.read(file_path)
+            men_preferences, women_preferences = s.men, s.women
+
+            print(f"Executing Kiraly's New Algorithm on file: {filename}", file=output_file)
+            start_time = time.time()
+            men, women = new_algorithm(men_preferences, women_preferences)
+            execution_time = time.time() - start_time
+            men_status = {
+                man:details['engaged_to'] for man, details in men.items() 
+                if 'engaged_to' in details
+            }
+            women_engaged = {
+                woman:details['engaged_to'] for woman, details in women.items() 
+                if 'engaged_to' in details
+            }
+            blocking_pairs = check_blocking_pairs(men_preferences, women_preferences, men_status, women_engaged)
+            print(f"Execution time: {execution_time: .30f} seconds\n", file=output_file)
+            print(f"Resulting matches: {men_status}\n", file=output_file)
+            print(f"Blocking pair: {blocking_pairs} \n", file=output_file)
+
+            """
+            # Converting matches to a list of tuples for the stability checker
+            matching_tuples = [(man, woman) for man, woman in matches.items()]
+            men_prefs, women_prefs = read_preferences(file_path)
+            print(men_prefs)
+            print(women_prefs)
+            stable_pairs, blocking_pairs = is_stable(matching_tuples, men_prefs, women_prefs)
+
+            print(f"Stable pairs: {stable_pairs}", file=output_file)
+            print(f"Blocking pairs: {len(blocking_pairs)}", file=output_file)
+            print("Blocking pairs details: ", file=output_file)
             
-        
-s = SMTIFileReader()         
-s.read("../experiments/men_have_strictly_ordered_lists/small_instances/instances_size_20/instance_1.txt")
-print(s.men)
-print(s.women)
+            for pair in blocking_pairs:
+                print(f"  {pair}", file=output_file)
+            print("\n", file=output_file)
+            """
+            """
+            if stable_pairs == len(matching_tuples):
+                print(f"There are {str(stable_pairs)} stable pairs and {len(blocking_pairs)} blocking pairs.\n",)
+            else:
+                print(f"The matching is not stable. There are {len(blocking_pairs)} blocking pairs.\n")
+                print("Blocking pairs: ", blocking_pairs, "\n")
+            """
+
+
+if __name__ == "__main__":
+    directory_path = "../experiments/men_have_strictly_ordered_lists/small_instances/instances_size_100"  # Adjust the path as needed
+    output_file_path = "../experiments/men_have_strictly_ordered_lists/results/new_algorithm_model_size_100.txt"  # Adjust the path as needed
+    execute_gsa1_on_files(directory_path)

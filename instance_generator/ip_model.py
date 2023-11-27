@@ -145,10 +145,10 @@ class SMTIWeakStability():
         
 # S = SMTIWeakStability("../experiments/general_smti/large_instances/instances_size_1000/instance_1.txt")
 #S = SMTIWeakStability("ex2.txt")
-#S = SMTIWeakStability("ex3.txt")
-# S.run_ip_model()
+S = SMTIWeakStability("example3.txt")
+S.run_ip_model()
 # blocking_pairs = S.check_blocking_pairs()
 #print(f"matching has blocking pairs: {blocking_pairs}")
-#for k, v in S.matching.items():
-#    print(f"{k} ---> {v}")    
+for k, v in S.matching.items():
+    print(f"{k} ---> {v}")    
 # print(S.matching)

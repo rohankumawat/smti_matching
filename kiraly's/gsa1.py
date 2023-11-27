@@ -3,6 +3,7 @@ GSA1: Gale-Shapley Algorithm 1
 While there exists an active man m, he proposes to his favourite woman w. 
 - If w accepts his proposal, they become engaged. 
 - If w rejects him, m deletes w from his list.
+
 When a woman gets a new proposal from man m, she always accepts this proposal if she 
 is a maiden. She also accepts this new proposal if she prefers m to her current fiance. 
 Otherwise she rejects m.
@@ -20,7 +21,7 @@ old bachelor and will remain inactive forever.
 """
 
 def gsa1(men_preferences, women_preferences):
-    n = len(men_preferences) # number of men
+    # n = len(men_preferences) # number of men
     men_status = {man: None for man in men_preferences} # initialise the status of each man as a lad
     men_list = {man: men_preferences[man]['list'][:] for man in men_preferences} # copy the preference lists of men (used for proposing to women)
     women_engaged = {} # keep track of engaged couples (woman: man)
