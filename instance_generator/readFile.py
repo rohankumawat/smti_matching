@@ -85,6 +85,6 @@ class SMTIFileReader():
             
         
 s = SMTIFileReader()         
-s.read("../experiments/men_have_strictly_ordered_lists/small_instances/instances_size_20/instance_1.txt")
+s.read("../experiments/general_smti/small_instances/instances_size_10/instance_0.txt")
 print(s.men)
 print(s.women)

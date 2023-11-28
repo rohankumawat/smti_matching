@@ -1,6 +1,6 @@
 import os
 import time
-from new_algorithm import new_algorithm
+from new_algorithm_one import new_algorithm
 from blocking_pair import check_blocking_pairs
 
 
@@ -134,6 +134,6 @@ def execute_gsa1_on_files(directory_path):
 
 
 if __name__ == "__main__":
-    directory_path = "../experiments/men_have_strictly_ordered_lists/small_instances/instances_size_100"  # Adjust the path as needed
-    output_file_path = "../experiments/men_have_strictly_ordered_lists/results/new_algorithm_model_size_100.txt"  # Adjust the path as needed
+    directory_path = "../experiments/general_smti/small_instances/instances_size_10"  # Adjust the path as needed
+    output_file_path = "../experiments/general_smti/results/new_algorithm_model_size_10.txt"  # Adjust the path as needed
     execute_gsa1_on_files(directory_path)
