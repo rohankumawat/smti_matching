@@ -172,6 +172,6 @@ class StableMarriageInstance:
 s = StableMarriageInstance(5)
 #s.sm_no_ties()
 #s.smi_no_ties(1, 5)
-#s.sm_ties(0.1, 0.2)
-s.smi_ties(1, 5, 0.4, 0.6)
+s.sm_ties(0.3, 0.4)
+#s.smi_ties(1, 5, 0.4, 0.6)
 s.write_to_file("example3.txt")

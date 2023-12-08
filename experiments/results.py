@@ -41,7 +41,7 @@ print(f"Average execution time: {average_execution_time} seconds")
 import os
 from collections import defaultdict
 
-folder_path = 'men_have_strictly_ordered_lists/results/'  # Replace this with the path to your folder
+folder_path = 'general_smti/results/ip_model_results'  # Replace this with the path to your folder
 
 # Create a dictionary to store data by model and size
 data = defaultdict(lambda: defaultdict(list))
@@ -61,7 +61,7 @@ for filename in os.listdir(folder_path):
             matches_count = 0
             execution_time = 0
             matches_instances = 0
-            for i in range(0, len(lines), 7):
+            for i in range(0, len(lines), 6):
                 matches_line = lines[i + 3]
                 execution_time_line = lines[i + 1]
                 matches_count += matches_line.count("'w")

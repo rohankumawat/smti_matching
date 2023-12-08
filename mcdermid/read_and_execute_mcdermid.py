@@ -61,7 +61,7 @@ def read_preferences(file_path):
 
         return n_men, n_women, men_preferences, women_preferences
 """
-n_men, n_women, men_preferences, women_preferences = read_preferences('examples/instance_1.txt')
+n_men, n_women, men_preferences, women_preferences = read_preferences('examples/example3.txt')
 
 print(n_men)
 print(men_preferences)
@@ -72,11 +72,11 @@ def execute_mcdermid_on_files(directory_path):
         for filename in os.listdir(directory_path):
             file_path = os.path.join(directory_path, filename)
             n_men, n_women, men_prefs, women_prefs = read_preferences(file_path)
-            """
-            men = []
-            for i in range(1, n_men+1):
-                men.append(str(i))
-            """
+
+            # men = []
+            # for i in range(1, n_men+1):
+            #   men.append(str(i))
+
             men = [str(i) for i in range(1, n_men+1)]
             women = [str(i) for i in range(1, n_women+1)]
 
@@ -107,6 +107,6 @@ def execute_mcdermid_on_files(directory_path):
             print(f"Resulting matches: {matching} \n", file=output_file)
             
 if __name__ == "__main__":
-    directory_path = "../experiments/men_have_strictly_ordered_lists/large_instances/instances_size_200"
-    output_file_path = "./output_mcdermid.txt"
+    directory_path = "../experiments/men_have_strictly_ordered_lists/large_instances/instances_size_1000/"
+    output_file_path = "../experiments/men_have_strictly_ordered_lists/results/mcdermid_size_1000.txt"
     execute_mcdermid_on_files(directory_path)
